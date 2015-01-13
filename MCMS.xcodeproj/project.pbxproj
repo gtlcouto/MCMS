@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		3565F83E1A65CDCD003B086F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F83D1A65CDCD003B086F /* main.m */; };
 		3565F8411A65CDCD003B086F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8401A65CDCD003B086F /* AppDelegate.m */; };
-		3565F8441A65CDCD003B086F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8431A65CDCD003B086F /* ViewController.m */; };
+		3565F8441A65CDCD003B086F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8431A65CDCD003B086F /* RootViewController.m */; };
 		3565F8471A65CDCD003B086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3565F8451A65CDCD003B086F /* Main.storyboard */; };
 		3565F8491A65CDCD003B086F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3565F8481A65CDCD003B086F /* Images.xcassets */; };
 		3565F84C1A65CDCD003B086F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3565F84A1A65CDCD003B086F /* LaunchScreen.xib */; };
 		3565F8581A65CDCD003B086F /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8571A65CDCD003B086F /* MCMSTests.m */; };
+		3565F8631A65CE1C003B086F /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8621A65CE1C003B086F /* MagicalCreature.m */; };
+		3565F8661A65CF7B003B086F /* Accessories.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8651A65CF7B003B086F /* Accessories.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		3565F83D1A65CDCD003B086F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3565F83F1A65CDCD003B086F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3565F8401A65CDCD003B086F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3565F8421A65CDCD003B086F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3565F8431A65CDCD003B086F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3565F8421A65CDCD003B086F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3565F8431A65CDCD003B086F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3565F8461A65CDCD003B086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3565F8481A65CDCD003B086F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3565F84B1A65CDCD003B086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3565F8511A65CDCD003B086F /* MCMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3565F8561A65CDCD003B086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3565F8571A65CDCD003B086F /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
+		3565F8611A65CE1C003B086F /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		3565F8621A65CE1C003B086F /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		3565F8641A65CF7B003B086F /* Accessories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accessories.h; sourceTree = "<group>"; };
+		3565F8651A65CF7B003B086F /* Accessories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accessories.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +89,16 @@
 			children = (
 				3565F83F1A65CDCD003B086F /* AppDelegate.h */,
 				3565F8401A65CDCD003B086F /* AppDelegate.m */,
-				3565F8421A65CDCD003B086F /* ViewController.h */,
-				3565F8431A65CDCD003B086F /* ViewController.m */,
+				3565F8421A65CDCD003B086F /* RootViewController.h */,
+				3565F8431A65CDCD003B086F /* RootViewController.m */,
 				3565F8451A65CDCD003B086F /* Main.storyboard */,
 				3565F8481A65CDCD003B086F /* Images.xcassets */,
 				3565F84A1A65CDCD003B086F /* LaunchScreen.xib */,
 				3565F83B1A65CDCD003B086F /* Supporting Files */,
+				3565F8611A65CE1C003B086F /* MagicalCreature.h */,
+				3565F8621A65CE1C003B086F /* MagicalCreature.m */,
+				3565F8641A65CF7B003B086F /* Accessories.h */,
+				3565F8651A65CF7B003B086F /* Accessories.m */,
 			);
 			path = MCMS;
 			sourceTree = "<group>";
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3565F8441A65CDCD003B086F /* ViewController.m in Sources */,
+				3565F8441A65CDCD003B086F /* RootViewController.m in Sources */,
+				3565F8661A65CF7B003B086F /* Accessories.m in Sources */,
+				3565F8631A65CE1C003B086F /* MagicalCreature.m in Sources */,
 				3565F8411A65CDCD003B086F /* AppDelegate.m in Sources */,
 				3565F83E1A65CDCD003B086F /* main.m in Sources */,
 			);

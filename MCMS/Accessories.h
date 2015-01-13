@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Accessories : NSObject
+@property NSString * name;
+@property int power;
+@property BOOL isEquiped;
 
 @end
