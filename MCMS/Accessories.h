@@ -13,4 +13,8 @@
 @property int power;
 @property BOOL isEquiped;
 
+-(instancetype)initWithName:(NSString *)name;
+-(instancetype)initWithName:(NSString* )name aPower:(int)power;
+-(instancetype)initWithName:(NSString* )name aPower:(int)power isEquiped:(BOOL)isEquiped;
+
 @end

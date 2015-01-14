@@ -12,7 +12,7 @@
 @interface MagicalCreature : NSObject
 @property NSString * creatureName;
 @property NSString * detail;
-@property Accessories *accessory;
+@property NSMutableArray *accessory;
 @property UIImage * creatureImage;
 
 -(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(Accessories*)accessory aCreatureImage:(UIImage *)image;
