@@ -40,7 +40,7 @@
     return self;
 }
 
--(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(Accessories *)accessory
+-(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(NSMutableArray *)accessory
 {
     self = [super init];
     if (self)
@@ -51,7 +51,7 @@
 }
 
 
--(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(Accessories*)accessory aCreatureImage:(UIImage *)image
+-(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(NSMutableArray*)accessory aCreatureImage:(UIImage *)image
 {
     self = [super init];
     if (self)

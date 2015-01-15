@@ -15,9 +15,9 @@
 @property NSMutableArray *accessory;
 @property UIImage * creatureImage;
 
--(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(Accessories*)accessory aCreatureImage:(UIImage *)image;
+-(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(NSMutableArray*)accessory aCreatureImage:(UIImage *)image;
 
--(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(Accessories*)accessory;
+-(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail anAccessory:(NSMutableArray*)accessory;
 
 -(instancetype)initWithName:(NSString *)name aDetail:(NSString *)detail;
 

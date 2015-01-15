@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		29BCF74A1A65DE4B000E0012 /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BCF7491A65DE4B000E0012 /* CreatureViewController.m */; };
 		29BCF74D1A65F919000E0012 /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BCF74C1A65F919000E0012 /* BattleViewController.m */; };
-		29BCF7541A66EB67000E0012 /* Centaur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29BCF7531A66EB67000E0012 /* Centaur.mp3 */; };
 		3565F83E1A65CDCD003B086F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F83D1A65CDCD003B086F /* main.m */; };
 		3565F8411A65CDCD003B086F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8401A65CDCD003B086F /* AppDelegate.m */; };
 		3565F8441A65CDCD003B086F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8431A65CDCD003B086F /* RootViewController.m */; };
@@ -19,6 +18,12 @@
 		3565F8581A65CDCD003B086F /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8571A65CDCD003B086F /* MCMSTests.m */; };
 		3565F8631A65CE1C003B086F /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8621A65CE1C003B086F /* MagicalCreature.m */; };
 		3565F8661A65CF7B003B086F /* Accessories.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565F8651A65CF7B003B086F /* Accessories.m */; };
+		3565F89D1A672CB1003B086F /* uhhh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3565F89C1A672CB1003B086F /* uhhh.mp3 */; };
+		3565F89F1A6732AE003B086F /* Lina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3565F89E1A6732AE003B086F /* Lina.mp3 */; };
+		3565F8A11A6732B6003B086F /* Centaur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3565F8A01A6732B6003B086F /* Centaur.mp3 */; };
+		3565F8A31A6732BD003B086F /* KevinSux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3565F8A21A6732BD003B086F /* KevinSux.mp3 */; };
+		3565F8A51A67330F003B086F /* Versus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3565F8A41A67330F003B086F /* Versus.mp3 */; };
+		3565F8A71A67335B003B086F /* Winner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3565F8A61A67335B003B086F /* Winner.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +41,6 @@
 		29BCF7491A65DE4B000E0012 /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
 		29BCF74B1A65F919000E0012 /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
 		29BCF74C1A65F919000E0012 /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
-		29BCF74E1A66E568000E0012 /* Versus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Versus.m4a; path = ../../../../../../Documents/Versus.m4a; sourceTree = "<group>"; };
-		29BCF74F1A66E568000E0012 /* Winner.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Winner.m4a; path = ../../../../../../Documents/Winner.m4a; sourceTree = "<group>"; };
-		29BCF7501A66E57B000E0012 /* Centaur.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Centaur.m4a; path = ../../../../../../Documents/Centaur.m4a; sourceTree = "<group>"; };
-		29BCF7511A66E57B000E0012 /* KevinSux.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = KevinSux.m4a; path = ../../../../../../Documents/KevinSux.m4a; sourceTree = "<group>"; };
-		29BCF7521A66E57B000E0012 /* Lina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lina.m4a; path = ../../../../../../Documents/Lina.m4a; sourceTree = "<group>"; };
-		29BCF7531A66EB67000E0012 /* Centaur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Centaur.mp3; path = ../../../../../../Downloads/Centaur.mp3; sourceTree = "<group>"; };
 		3565F8381A65CDCD003B086F /* MCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3565F83C1A65CDCD003B086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3565F83D1A65CDCD003B086F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +58,12 @@
 		3565F8621A65CE1C003B086F /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
 		3565F8641A65CF7B003B086F /* Accessories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accessories.h; sourceTree = "<group>"; };
 		3565F8651A65CF7B003B086F /* Accessories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accessories.m; sourceTree = "<group>"; };
+		3565F89C1A672CB1003B086F /* uhhh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uhhh.mp3; sourceTree = "<group>"; };
+		3565F89E1A6732AE003B086F /* Lina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lina.mp3; sourceTree = "<group>"; };
+		3565F8A01A6732B6003B086F /* Centaur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Centaur.mp3; sourceTree = "<group>"; };
+		3565F8A21A6732BD003B086F /* KevinSux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KevinSux.mp3; sourceTree = "<group>"; };
+		3565F8A41A67330F003B086F /* Versus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Versus.mp3; sourceTree = "<group>"; };
+		3565F8A61A67335B003B086F /* Winner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Winner.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,17 +105,17 @@
 		3565F83A1A65CDCD003B086F /* MCMS */ = {
 			isa = PBXGroup;
 			children = (
-				29BCF7501A66E57B000E0012 /* Centaur.m4a */,
-				29BCF7511A66E57B000E0012 /* KevinSux.m4a */,
-				29BCF7521A66E57B000E0012 /* Lina.m4a */,
 				3565F83F1A65CDCD003B086F /* AppDelegate.h */,
 				3565F8401A65CDCD003B086F /* AppDelegate.m */,
-				29BCF7531A66EB67000E0012 /* Centaur.mp3 */,
 				3565F8421A65CDCD003B086F /* RootViewController.h */,
 				3565F8431A65CDCD003B086F /* RootViewController.m */,
+				3565F89C1A672CB1003B086F /* uhhh.mp3 */,
+				3565F8A41A67330F003B086F /* Versus.mp3 */,
+				3565F8A01A6732B6003B086F /* Centaur.mp3 */,
+				3565F8A21A6732BD003B086F /* KevinSux.mp3 */,
+				3565F8A61A67335B003B086F /* Winner.mp3 */,
+				3565F89E1A6732AE003B086F /* Lina.mp3 */,
 				29BCF7481A65DE4B000E0012 /* CreatureViewController.h */,
-				29BCF74E1A66E568000E0012 /* Versus.m4a */,
-				29BCF74F1A66E568000E0012 /* Winner.m4a */,
 				29BCF7491A65DE4B000E0012 /* CreatureViewController.m */,
 				3565F8451A65CDCD003B086F /* Main.storyboard */,
 				29BCF74B1A65F919000E0012 /* BattleViewController.h */,
@@ -232,10 +237,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3565F8A51A67330F003B086F /* Versus.mp3 in Resources */,
 				3565F8471A65CDCD003B086F /* Main.storyboard in Resources */,
+				3565F8A31A6732BD003B086F /* KevinSux.mp3 in Resources */,
+				3565F8A11A6732B6003B086F /* Centaur.mp3 in Resources */,
 				3565F84C1A65CDCD003B086F /* LaunchScreen.xib in Resources */,
+				3565F89F1A6732AE003B086F /* Lina.mp3 in Resources */,
 				3565F8491A65CDCD003B086F /* Images.xcassets in Resources */,
-				29BCF7541A66EB67000E0012 /* Centaur.mp3 in Resources */,
+				3565F89D1A672CB1003B086F /* uhhh.mp3 in Resources */,
+				3565F8A71A67335B003B086F /* Winner.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

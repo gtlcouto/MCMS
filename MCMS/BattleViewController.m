@@ -7,13 +7,14 @@
 //
 
 #import "BattleViewController.h"
-#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface BattleViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *miniPlayerOne;
 @property (weak, nonatomic) IBOutlet UIImageView *miniPlayerTwo;
 @property (weak, nonatomic) IBOutlet UIImageView *winnerPlayer;
 @property (weak, nonatomic) IBOutlet UILabel *playerOneName;
+@property AVQueuePlayer *myAudioPlayer;
 
 @property SystemSoundID soundClick;
 
@@ -27,14 +28,31 @@
     [super viewDidLoad];
 
 
-    NSURL *clickSound   = [NSURL fileURLWithPath:@"/Users/diegocichello/Downloads/Centaur.mp3"];
 
-    AudioServicesCreateSystemSoundID (CFBridgingRetain(clickSound), self.soundClick);
+    //start a background sound
+    NSString *soundFilePath = @"/Users/gtlcouto/Mobile Makers/Week 2/MCMS/MCMS/Lina.mp3";
+    NSURL *fileURL = [[NSURL alloc] initFileURLWithPath:soundFilePath ];
+    AVPlayerItem *item1 = [AVPlayerItem playerItemWithURL:fileURL];
 
-    NSLog(clickSound);
+    soundFilePath = @"/Users/gtlcouto/Mobile Makers/Week 2/MCMS/MCMS/Versus.mp3";
+    fileURL = [[NSURL alloc] initFileURLWithPath:soundFilePath ];
+    AVPlayerItem *item2 = [AVPlayerItem playerItemWithURL:fileURL];
 
-    AudioServicesPlaySystemSound(self.soundClick);
 
+    soundFilePath = @"/Users/gtlcouto/Mobile Makers/Week 2/MCMS/MCMS/Centaur.mp3";
+    fileURL = [[NSURL alloc] initFileURLWithPath:soundFilePath ];
+    AVPlayerItem *item3 = [AVPlayerItem playerItemWithURL:fileURL];
+
+
+    soundFilePath = @"/Users/gtlcouto/Mobile Makers/Week 2/MCMS/MCMS/Winner.mp3";
+    fileURL = [[NSURL alloc] initFileURLWithPath:soundFilePath ];
+    AVPlayerItem *item4 = [AVPlayerItem playerItemWithURL:fileURL];
+
+    soundFilePath = @"/Users/gtlcouto/Mobile Makers/Week 2/MCMS/MCMS/KevinSux.mp3";
+    fileURL = [[NSURL alloc] initFileURLWithPath:soundFilePath ];
+    AVPlayerItem *item5 = [AVPlayerItem playerItemWithURL:fileURL];
+    self.myAudioPlayer = [[AVQueuePlayer alloc] initWithItems:@[item1, item2, item3, item4, item5]];
+    [self.myAudioPlayer play];
 
 
 
@@ -44,14 +62,14 @@
     self.playerOneName.alpha =0.0;
     self.playerTwoName.alpha =0.0;
 
-    self.playerOneName.text = self.losingCreature.creatureName;
-    self.playerTwoName.text = self.winningCreature.creatureName;
+    self.playerOneName.text = @"Lina";
+    self.playerTwoName.text = @"Centaur";
     
 
 
-    self.miniPlayerOne.image = [UIImage imageNamed:self.winningCreature.creatureName];
-    self.miniPlayerTwo.image = [UIImage imageNamed:self.losingCreature.creatureName];
-    self.winnerPlayer.image = [UIImage imageNamed:self.winningCreature.creatureName];
+    self.miniPlayerOne.image = [UIImage imageNamed:@"Centaur.png"];
+    self.miniPlayerTwo.image = [UIImage imageNamed:@"Lina.png"];
+    self.winnerPlayer.image = [UIImage imageNamed:@"kevin.png"];
 
     
 
@@ -74,8 +92,9 @@
 
     }];
 
-    [UIView animateWithDuration:5.0 delay:2.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+    [UIView animateWithDuration:5.0 delay:6.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
         self.winnerPlayer.alpha =1.0;
+
     } completion:^(BOOL finished) {
 
     }];
